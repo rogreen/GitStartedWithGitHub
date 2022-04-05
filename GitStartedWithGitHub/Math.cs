@@ -8,12 +8,6 @@ namespace GitStartedWithGitHub
 {
     internal class Math
     {
-        internal int Add()
-        {
-            int x1 = 1;
-            int x2 = 2;
-            int sum = x1 + x2;
-            return sum;
-        }
+        internal int Add(int x1,int x2 ) => x1 + x2;
     }
 }
